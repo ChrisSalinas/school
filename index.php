@@ -26,6 +26,7 @@ $action = isset($_GET['action'])?$_GET['action']:'home';
 switch($action){
     case 'admin':
         $cms = isset($_GET['cms'])?$_GET['cms']:'show';
+        $cms = isset($_POST['update'])?'update':$cms;
         switch($cms){
             case 'show':
                 include ('model/home.php');
@@ -33,7 +34,15 @@ switch($action){
                 $templateParser->display('home2.tpl');
                 break;
             case 'edit':
-
+                include ('model/select1.php');
+                $templateParser->assign('result', $result);
+                $templateParser->display('admin_change.tpl');
+                break;
+            case 'update':
+                include ('model/admin_change.php');
+                include ('model/home.php');
+                $templateParser->assign('result', $result);
+                $templateParser->display('home2.tpl');
                 break;
             case 'delete':
                 $id = isset($_GET['id'])?$_GET['id']:0;

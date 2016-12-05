@@ -1,5 +1,6 @@
 <table>
     <a href="?action=admin&cms=insert">new</a>
+
     {foreach from=$result item=oneItem}
         <tr>
             <td style="display: none" name="id">{$oneItem.id}</td>
