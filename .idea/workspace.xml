@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6ebdb40-a7fb-497a-bf92-d9ce36524af2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/config.php" afterPath="$PROJECT_DIR$/includes/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/admin_change.php" afterPath="$PROJECT_DIR$/model/admin_change.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/admin_delete.php" afterPath="$PROJECT_DIR$/model/admin_delete.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/home.php" afterPath="$PROJECT_DIR$/model/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/select1.php" afterPath="$PROJECT_DIR$/model/select1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin_change.tpl" afterPath="$PROJECT_DIR$/views/admin_change.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/compiled/060abf0b97e0af3d1307708ca95b6c89fd7a5b4a.file.header.tpl.php" afterPath="$PROJECT_DIR$/views/compiled/060abf0b97e0af3d1307708ca95b6c89fd7a5b4a.file.header.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/compiled/67aac1acc48014a337554fd5226663bcaf7e088d.file.home2.tpl.php" afterPath="$PROJECT_DIR$/views/compiled/67aac1acc48014a337554fd5226663bcaf7e088d.file.home2.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/compiled/6e7a6bfaae72350d7cea44683fe14830d51b49da.file.admin_change.tpl.php" afterPath="$PROJECT_DIR$/views/compiled/6e7a6bfaae72350d7cea44683fe14830d51b49da.file.admin_change.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.tpl" afterPath="$PROJECT_DIR$/views/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home2.tpl" afterPath="$PROJECT_DIR$/views/home2.tpl" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +29,10 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.047393367">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.16587678">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="2" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-                <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+                <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
               </folding>
             </state>
           </provider>
@@ -62,8 +51,8 @@
       <file leaf-file-name="home2.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home2.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -256,7 +245,7 @@
     <frame x="52" y="23" width="1228" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2698145" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2698145" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -274,25 +263,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2698145" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -309,8 +279,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
-            <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-            <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+            <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
           </folding>
         </state>
       </provider>
@@ -367,8 +336,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-            <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+            <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
           </folding>
         </state>
       </provider>
@@ -445,8 +413,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-            <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+            <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
           </folding>
         </state>
       </provider>
@@ -523,8 +490,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding>
-            <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-            <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+            <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
           </folding>
         </state>
       </provider>
@@ -680,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home2.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
@@ -696,13 +654,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/home2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.047393367">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.16587678">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="2" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <marker date="1481280488000" expanded="true" signature="14:35" placeholder="SELECT * FRO... home" />
-            <marker date="1481280488000" expanded="true" signature="14:86" placeholder="SELECT * FRO... schools" />
+            <marker date="1481283340000" expanded="true" signature="13:84" placeholder="SELECT * FRO... schools" />
           </folding>
         </state>
       </provider>

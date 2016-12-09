@@ -1,6 +1,6 @@
 <?php
 
-$sql= "SELECT * FROM schools  INNER JOIN regions ON schools.Regio_ID=regions.ID";
+$sql= "SELECT * FROM schools  INNER JOIN regions ON schools.Regio_ID=regions.id";
 
 
 $result = $mysqli->query($sql);
