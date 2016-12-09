@@ -1,6 +1,11 @@
 <?php
 
-    $sql= "SELECT * FROM home ORDER BY YEAR(Date) DESC, MONTH(Date) DESC, DAY(DATE) DESC";
+$sql= "SELECT * FROM schools  INNER JOIN regions ON schools.Regio_ID=regions.ID";
 
 
 $result = $mysqli->query($sql);
+
+//$result= resultToArray($result);
+//
+//echo '<pre>';
+//print_r($result);

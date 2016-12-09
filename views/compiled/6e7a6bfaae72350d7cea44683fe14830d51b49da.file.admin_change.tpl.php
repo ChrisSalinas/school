@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-12-05 10:18:42
+<?php /* Smarty version Smarty-3.1.18, created on 2016-12-08 11:52:34
          compiled from "views/admin_change.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:272916965812fd3a5d5ac0-08512001%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6e7a6bfaae72350d7cea44683fe14830d51b49da' => 
     array (
       0 => 'views/admin_change.tpl',
-      1 => 1480929137,
+      1 => 1481194353,
       2 => 'file',
     ),
   ),
@@ -36,7 +36,7 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
                 <tr>
                     <input  style="display: none" name="id2" value="<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['id'];?>
 " >
-                    <td><textarea name="name" id="title" cols="30" rows="3"><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['title'];?>
+                    <td><textarea name="schoolName" id="title" cols="30" rows="3"><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['schoolName'];?>
 </textarea></td>
                     <td><input type="submit" name="update" value="update"></td>
                 </tr>

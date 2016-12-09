@@ -40,9 +40,6 @@ switch($action){
                 break;
             case 'update':
                 include ('model/admin_change.php');
-                include ('model/home.php');
-                $templateParser->assign('result', $result);
-                $templateParser->display('home2.tpl');
                 break;
             case 'delete':
                 $id = isset($_GET['id'])?$_GET['id']:0;
@@ -56,6 +53,7 @@ switch($action){
 
 
 }
+
 
 
 

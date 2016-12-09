@@ -11,7 +11,7 @@ setlocale(LC_ALL, 'nl_NL');
 
 // Database settings
 define('DB_HOST','localhost');
-define('DB_NAME','Myband');
+define('DB_NAME','schoolcheck');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','root');
 //
@@ -19,6 +19,4 @@ define('DB_PASSWORD','root');
 //define('DB_NAME','myBand');
 //define('DB_USERNAME','myBand');
 //define('DB_PASSWORD','root1');
-
-define('ITEM_PAGE',6)
 ?>
